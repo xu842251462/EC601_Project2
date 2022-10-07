@@ -12,7 +12,6 @@ def main(text):
         content=text,
         type=enums.Document.Type.PLAIN_TEXT)
 
-    GOOGLE_APPLICATION_CREDENTIALS = 'ec601-364803-35286ebf8207.json'
     # Detects the sentiment of the text
     sentiment = client.analyze_sentiment(document=document).document_sentiment
 
