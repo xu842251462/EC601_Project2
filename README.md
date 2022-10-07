@@ -9,7 +9,7 @@ In this program, requests and json lib are used. Using get and bear_auth will he
 
 Google NLP
 I try to follow the tutorial to create key and build. 
-![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img1.png)
-![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img2.png)
-![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img3.png)
+![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img_1.png)
+![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img_2.png)
+![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img_3.png)
 
