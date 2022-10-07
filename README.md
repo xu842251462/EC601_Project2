@@ -8,8 +8,27 @@ In this program, requests and json lib are used. Using get and bear_auth will he
 ![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img.png)
 
 Google NLP
-I try to follow the tutorial to create key and build. 
-![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img_1.png)
-![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img_2.png)
-![alt text](https://github.com/xu842251462/EC601_project2/blob/master/img_3.png)
+Building Sentiment analysis model using GoogleNLP library.
+
+Text result:
+Text1 : “I am sad today because I had a lot of homework”
+
+The text entered should be predicted as a negative emotion since keywork “sad”, “a lot of homework”
+
+Result: the test shows a negative score of -0.8. It is a large negative socre which shows it is a negative emotion.
+
+Text2: “I want to go to the beach.”
+
+The text entered should be neutral since it contains no emotional words.
+
+Result: the test shows a score of 0.2 which shows no indication for positive or negative emotion.
+
+Text3: “The moon is beautiful.”
+
+The text contains positive emotion word” beautiful.”
+
+Result. Test score 0.89 which is high positive emotion.
+
+
+
 
