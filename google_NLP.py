@@ -1,7 +1,8 @@
+"""Demonstrates how to make a simple call to the Natural Language API."""
+
 import argparse
 
 from google.cloud import language_v1
-
 
 
 def print_result(annotations):
@@ -18,8 +19,6 @@ def print_result(annotations):
         "Overall Sentiment: score of {} with magnitude of {}".format(score, magnitude)
     )
     return 0
-
-
 
 
 def analyze(movie_review_filename):
@@ -39,16 +38,14 @@ def analyze(movie_review_filename):
     print_result(annotations)
 
 
-
-
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
-    )
-    parser.add_argument(
-        "movie_review_filename",
-        help="The filename of the movie review you'd like to analyze.",
-    )
-    args = parser.parse_args()
+    # parser = argparse.ArgumentParser(
+    #     description="movie_review_filename", formatter_class=argparse.RawDescriptionHelpFormatter
+    # )
+    # parser.add_argument(
+    #     "movie_review_filename",
+    #     help="The filename of the movie review you'd like to analyze.",
+    # )
+    # args = parser.parse_args()
 
-    analyze(args.movie_review_filename)
+    analyze('movie_review_filename')
