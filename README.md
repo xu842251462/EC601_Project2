@@ -31,6 +31,8 @@ The text contains positive emotion word” beautiful.”
 
 Result. Test score 0.89 which is high positive emotion.
 
+---------------------------------------------------------------------------------
+
 **Phase2:**
 
 MVP: extracting emotion trend of tweets in a given time.
