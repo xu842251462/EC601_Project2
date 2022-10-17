@@ -31,6 +31,10 @@ The text contains positive emotion word” beautiful.”
 
 Result. Test score 0.89 which is high positive emotion.
 
+Phase2:
 
+MVP: extracting emotion trend of tweets in a given time.
+
+User Story: Developer can use the emotion trend of tweeter to find the preference of the user. When there is ceremony, we can find the positive emotion in the twitter. When user get bad grade on exame, they may post the negative emotion in the post.
 
 
