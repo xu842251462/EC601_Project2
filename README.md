@@ -1,6 +1,6 @@
 # EC601_project2
 
-Phase1:
+##Phase1:
 
 Twitter APIs
 When I want to following from the twitter api, I can use following_lookup. I get this program from twitter API. I connect it with my bear token. I also connect it to my twitter id. 
@@ -31,7 +31,7 @@ The text contains positive emotion word” beautiful.”
 
 Result. Test score 0.89 which is high positive emotion.
 
-Phase2:
+##Phase2:
 
 MVP: extracting emotion trend of tweets in a given time.
 
